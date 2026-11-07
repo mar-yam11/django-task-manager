@@ -29,3 +29,40 @@ The system provides role-based access, allowing admins to create and prioritize 
 | **Version Control** | Git, GitHub |
 | **Tools** | VS Code, Django Admin, Postman |
 
+## 🚀 Installation & Setup
+
+### 1. Clone the repository
+
+git clone YOUR_REPOSITORY_URL
+
+cd SchoolTaskAssignment/project
+
+### 2. Create a virtual environment
+
+python -m venv venv
+
+### 3. Activate the virtual environment
+
+**Windows:**
+
+venv\Scripts\activate
+
+**Linux / macOS:**
+
+source venv/bin/activate
+
+### 4. Install dependencies
+
+pip install -r requirements.txt
+
+### 5. Apply database migrations
+
+python manage.py migrate
+
+### 6. Run the development server
+
+python manage.py runserver
+
+Open your browser and visit:
+
+http://127.0.0.1:8000/login
